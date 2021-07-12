@@ -1,5 +1,5 @@
 .controller.ds4 {
-    background url(Basemod.png);
+    background: url(Basemod.png);
     height 598px;
     width 806px;
         margin-left -403px;
@@ -7,7 +7,7 @@
 }
 
 .ds4.disconnected {
-    background url(ps4-assetsdisconnected.svgz);
+    background: url(ps4-assetsdisconnected.svgz);
 }
 
 .ds4.disconnected div {
@@ -24,7 +24,7 @@
 .ds4 .trigger {
     width 99px;
     height 100%;
-    background url(triggersmod.png);
+    background: url(triggersmod.png);
     opacity 0;
 }
 
@@ -40,7 +40,7 @@
 .ds4 .bumper {
     width 99px;
     height 23px;
-    background url(ps4-assetsbumper.svgz) no-repeat;
+    background: url(ps4-assetsbumper.svgz) no-repeat;
     opacity 0;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background url(ps4-assetstouchpad.svgz) no-repeat center;
+    background: url(ps4-assetstouchpad.svgz) no-repeat center;
 }
 
 .ds4 .meta {
@@ -88,13 +88,12 @@
 }
 
 .ds4 .meta.pressed {
-    background url(ps4-assetsmeta.svgz) no-repeat center;
+    background: url(ps4-assetsmeta.svgz) no-repeat center;
 }
 
-Not needed, but I like keeping them here for posterity
 .ds4 .quadrant{
 position absolute;
-background url(ps4-assetsplayer-n.svgz);
+background: url(ps4-assetsplayer-n.svgz);
 height 17px;
 width 111px;
 top 140px;
@@ -121,7 +120,7 @@ background-position 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background url(ps4-assetsstart.svgz);
+    background: url(ps4-assetsstart.svgz);
     width 28px;
     height 46px;
     opacity 0;
@@ -156,7 +155,7 @@ background-position 0 -70px;
     position absolute;
     width 55px;
     height 55px;
-    background url(ps4-assetsface.svgz);
+    background: url(ps4-assetsface.svgz);
 }
 
 .ds4 .button.pressed {
@@ -196,7 +195,7 @@ background-position 0 -70px;
 
 .ds4 .stick {
     position absolute;
-    background url(sticksmod.png);
+    background: url(sticksmod.png);
     height 94px;
     width 94px;
 }
@@ -228,7 +227,7 @@ background-position 0 -70px;
 }
 
 .ds4 .face {
-    background url(facemod.png);
+    background: url(facemod.png);
     position absolute;
 }
 
